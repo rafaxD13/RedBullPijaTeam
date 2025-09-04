@@ -91,43 +91,18 @@ input, select, textarea {
 
 .logo{
 		width: 430px;
-		 -webkit-mask-image: 
-        radial-gradient(farthest-side, rgba(0,0,0,1) calc(100% - 20px), rgba(0,0,0,0) 100%);
-	    -webkit-mask-repeat: no-repeat;
-	    -webkit-mask-position: center;
-	    -webkit-mask-size: cover;
-
 	    mask-image: 
 	        radial-gradient(farthest-side, rgba(0,0,0,1) calc(100% - 20px), rgba(0,0,0,0) 100%);
 	    mask-repeat: no-repeat;
 	    mask-position: center;
 	    mask-size: cover;
-
-	    display: block;
 	    margin: 0 auto;
-	    border-radius: 50%;
 	    position: relative;
 	}
 
-.logosombra{
-		display: block;
-	    margin: 0 auto;
-	    border-radius: 50%;
-	    position: relative;
-	}
 
-.logosombra::after {
-    content: "";
-    position: absolute;
-    bottom: -10px; /* Un poco debajo de la imagen */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60%; /* Ajusta el ancho del óvalo */
-    height: 15px; /* Grosor del óvalo */
-    background: radial-gradient(ellipse, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 80%);
-    border-radius: 50%;
-    z-index: -1; /* Para que quede detrás */
-}
+
+
 
 
 /* Basic */
@@ -2879,6 +2854,7 @@ input, select, textarea {
 		.style1 {
 			background-color: #21b2a6;
 			color: #c8ece9;
+			padding-top: 80px;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
